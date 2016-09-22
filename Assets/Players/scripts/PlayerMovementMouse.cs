@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerMoveSimple : MonoBehaviour {
+public class PlayerMovementMouse : PlayerMovement {
     // simple point and click movement a la league of legends using the NavMeshAgent component
 
     private NavMeshAgent navMeshAgent;
