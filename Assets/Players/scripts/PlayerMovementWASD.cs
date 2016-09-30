@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class playerMoveSimpleWASD : MonoBehaviour {
+public class PlayerMovementWASD : PlayerMovement {
     //simple w-a-s-d controls that use the set destination method like a carrot on a stick for the NavMeshAgent Component
 
     private NavMeshAgent navMeshAgent;
