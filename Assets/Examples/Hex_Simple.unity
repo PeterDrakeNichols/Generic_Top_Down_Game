@@ -84,7 +84,7 @@ NavMeshSettings:
     minRegionArea: 2
     cellSize: 0.16666667
     manualCellSize: 0
-  m_NavMeshData: {fileID: 23800000, guid: bf3582c2987d98545a00667b179bf758, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 2960df2a3741b0540836d516c7f275c8, type: 2}
 --- !u!1001 &88628222
 Prefab:
   m_ObjectHideFlags: 0
@@ -94,15 +94,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 495610, guid: f491dce51f1047047a96b4d5ff41f069, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 6.48
       objectReference: {fileID: 0}
     - target: {fileID: 495610, guid: f491dce51f1047047a96b4d5ff41f069, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 495610, guid: f491dce51f1047047a96b4d5ff41f069, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 6.37
       objectReference: {fileID: 0}
     - target: {fileID: 495610, guid: f491dce51f1047047a96b4d5ff41f069, type: 2}
       propertyPath: m_LocalRotation.x
