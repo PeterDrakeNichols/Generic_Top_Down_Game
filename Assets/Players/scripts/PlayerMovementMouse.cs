@@ -17,7 +17,10 @@ public class PlayerMovementMouse : PlayerMovement {
         if (Input.GetMouseButton(1))
         {
             RaycastHit mouseOnGround = mouseVectors.MouseToGround();
-            navMeshAgent.SetDestination(mouseOnGround.point);
+            if(mouseOnGround.point != new Vector3(0, 0, 0)){
+                //refactor: for some reason unity returns 0,0,0 instead of null on a missed raycast 
+                navMeshAgent.SetDestination(mouseOnGround.point);
+            }
         }
 
     }
